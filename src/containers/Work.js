@@ -1,32 +1,21 @@
 import React, { Component } from 'react';
-import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
-import styled from 'styled-components';
+import { Grid, Jumbotron, Button } from 'react-bootstrap';
+
 
 export default class Work extends Component {
 
   render() {
     return (
       <div>
-        <Navbar inverse fixedTop>
-          <Grid>
-            <Navbar.Header>
-              <Navbar.Brand>
-                <a href="/">React App</a>
-              </Navbar.Brand>
-              <Navbar.Toggle />
-            </Navbar.Header>
-          </Grid>
-        </Navbar>
         <Jumbotron>
           <Grid>
-            <h1>Welcome to React</h1>
+            <h1>Welcome to my work</h1>
             <p>
               <Button
                 bsStyle="success"
                 bsSize="large"
-                href="http://react-bootstrap.github.io/components.html"
-                target="_blank">
-                View React Bootstrap Docs
+                href="/">
+                Back to Home
               </Button>
             </p>
           </Grid>
